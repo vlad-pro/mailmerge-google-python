@@ -6,6 +6,7 @@ data
 # project related files
 credentials.json
 token.pickle
+token.json
 
 # related dirs
 /dist
