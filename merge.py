@@ -6,7 +6,7 @@ from httplib2 import Http
 from oauth2client import file, client, tools
 
 # Fill-in IDs of your Docs template & any Sheets data source
-DOCS_FILE_ID = 'YOUR_TMPL_DOC_FILE_ID'
+DOCS_FILE_ID = '10Ob_wgq4QEp8eNZwb_ei2sSTPrQgEHcnCsa4S4e4ndE'
 SHEETS_FILE_ID = 'YOUR_SHEET_DATA_FILE_ID'
 
 # authorization constants
