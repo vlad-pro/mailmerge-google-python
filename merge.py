@@ -70,6 +70,7 @@ def _get_sheets_data(service=SHEETS):
 # data source dispatch table [better alternative vs. eval()]
 SAFE_DISPATCH = {k: globals().get('_get_%s_data' % k) for k in SOURCES}
 print(SAFE_DISPATCH)
+
 def _copy_template(tmpl_id, source, service):
     """(private) Copies letter template document using Drive API then
         returns file ID of (new) copy.
